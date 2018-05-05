@@ -1,0 +1,5 @@
+name: Tab-Permissions
+author: erdemozor
+version: 1.0
+main: me.erdemozor.tabpermissions.Main
+description: Tab-Complete with permissions.
