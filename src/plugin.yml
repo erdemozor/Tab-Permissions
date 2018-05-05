@@ -1,5 +1,11 @@
 name: Tab-Permissions
 author: erdemozor
 version: 1.0
-main: me.erdemozor.tabpermissions.Main
+main: com.github.erdemozor.tabpermissions.Main
 description: Tab-Complete with permissions.
+depend: [Vault,ProtocolLib]
+
+commands:
+    TPerms:
+        usage: /<commands>
+        description: a command

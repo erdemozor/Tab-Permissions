@@ -1,0 +1,4 @@
+# The message displayed when someone uses a blocked command (formatting codes can be used).
+# If set to '', no message will be displayed.
+message: '&4Message'
+# Players can also use commands if they have the 'commandwhitelist.override.<command>' permission.
