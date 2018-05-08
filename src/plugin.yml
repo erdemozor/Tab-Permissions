@@ -1,0 +1,17 @@
+name: Tab-Permissions
+author: erdemozor
+version: 1.0
+main: com.github.erdemozor.tabpermissions.Main
+description: Tab-Complete with permissions.
+depend: [Vault,ProtocolLib]
+
+commands:
+    tperms:
+        usage: /tperms
+        description: Main Tab-Permissions Command
+    pt:
+        usage: /pt
+        description: Tab-Permissions alias
+        permission: tperms.test
+permissions:
+    tperms.test:
