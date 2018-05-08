@@ -1,4 +1,15 @@
-# The message displayed when someone uses a blocked command (formatting codes can be used).
-# If set to '', no message will be displayed.
-message: '&4Message'
-# Players can also use commands if they have the 'commandwhitelist.override.<command>' permission.
+enabled: false
+#If set to true, TabClearer will automatically assign permissions to commands without assigned permissions on plugin start.
+#Set to false on default as a warning.
+Command Exceptions:
+   - 'tc: tabclearer.random.tc'
+#Used to set the default permissions for commands that don't follow the <PluginName>.<Command> permission style.
+#Use this if you are having trouble with command permissions.
+
+Message:
+    enabled: true
+#Disable this if you want to have the default minecraft error message if the player doesn't have permission for a command.
+    message: "&4You don't have permission to use <command>"
+#Message to be displayed if the player tries to use a command they don't have permission for.
+#<command> gets replaced by the command and <plugin> gets replaced by the plugin.
+#(Formatting codes can also be used.)

@@ -6,6 +6,12 @@ description: Tab-Complete with permissions.
 depend: [Vault,ProtocolLib]
 
 commands:
-    TPerms:
-        usage: /<commands>
-        description: a command
+    tperms:
+        usage: /tperms
+        description: Main Tab-Permissions Command
+    pt:
+        usage: /pt
+        description: Tab-Permissions alias
+        permission: tperms.test
+permissions:
+    tperms.test:
